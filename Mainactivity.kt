@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val buttonUpload= findViewById<Button>(R.id.btnUpload)
-        val buttonDownload= findViewById<Button>(R.id.btnDownload)    //declaring a variable
+        val buttonDownload= findViewById<Button>(R.id.btnDownload)    //declaring a variable.
         buttonUpload.setOnClickListener {
             Toast.makeText(applicationContext,"Uploading...", Toast.LENGTH_SHORT).show()
         }        
